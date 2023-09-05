@@ -3,6 +3,7 @@ package classroom;
 public class Asignatura {
 
     public String nombre;
+    String n = nombre;
     public int codigoInterno;
     public long codigoExterno;
     public Tipo tipo;

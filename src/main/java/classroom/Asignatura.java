@@ -5,7 +5,7 @@ public class Asignatura {
     public String nombre;
     String n = nombre;
     public int codigoInterno;
-    public long codigoExterno;
+    public int codigoExterno;
     public Tipo tipo;
 
     public Asignatura() {
@@ -38,11 +38,11 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public void cambiarDatos(int codigoInterno) {
+    public void cambiarDatos2(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
 
-    public void cambiarDatos(long codigoExterno) {
+    public void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
     }
 
